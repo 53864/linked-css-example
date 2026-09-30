@@ -4,7 +4,7 @@
 */
 @import url(./colors.css);
 body {
-   background-color: var(--light);
+   background-color: var(--white);
 }
 .logo {
    color: var(--primary);
@@ -53,15 +53,48 @@ color: var(--primary)
 .card-grid, .benefit-list {
    display: flex;
    gap: 20px;
+}
 
+#about .section-title {
+   color: var(--primary)
 
 }
 
-#services {}
+#about .two-column {
+   display: flex;
+   gap: 20px;
+
+}
+#about .column-image {
+   margin-bottom: 10px;
+}
+
+#services {
+   padding: 20px;
+   background-color: var(--light);
+}
+#services .card {
+   background-color: var(--white);
+   padding: 10px;
+}
+#services .section-intro {
+   margin-bottom: 30px;
+}
+.card.featured-card {
+   border-top: 2px solid var(--accent);
+}
+#benefits {
+   background-color: var(--dark);
+   color: var(--white)
+}
+#benfits .section-title {
+   color: var(--white);
+}
 
 .benefit-list .benefit {
    display: flex;
    flex-direction: column;
    gap: 20px;
+   border-top: 2px solid var(--primary)
 
 }
