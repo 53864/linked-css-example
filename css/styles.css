@@ -155,7 +155,7 @@ color: var(--primary)
 }
 #community .volunteer {
    background-color: var(--white);
-  
+   padding-bottom: 30px;
    display: flex;
    gap: 50px;
 }
@@ -176,6 +176,18 @@ color: var(--primary)
    border-left: solid var(--accent);
 
 }
-#community .button {
-  margin-top: 50px;
+#contact .container {
+   background-color: var(--secondary);
+   color:var(--white);
+   padding: 40px;
+   text-align: left;
+   
+   
+}
+#contact .section-title {
+   color:var(--white);
+}
+ .site-footer {
+   background-color: var(--dark);
+   color:var(--white);
 }
