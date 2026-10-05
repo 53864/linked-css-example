@@ -139,3 +139,6 @@ color: var(--primary)
    text-align: center;
    padding: 20px;
 }
+#community .section-title {
+   color: var(--primary)
+}
