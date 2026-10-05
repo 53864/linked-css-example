@@ -118,7 +118,7 @@ color: var(--primary)
 #work .feature-layout {
    display: flex;
    gap: 20px;
-   margin
+   
 
 
 }
@@ -127,7 +127,7 @@ color: var(--primary)
 }
 #work .eyebrow {
    color: var(--secondary);
-   te
+   
 }
 #work .section-title {
    color: var(--secondary)
@@ -139,6 +139,19 @@ color: var(--primary)
    text-align: center;
    padding: 20px;
 }
-#community .section-title {
-   color: var(--primary)
+#community .designing {
+   color:var(--white);
+   text-align: left;
+   padding-right: 20px;
+   margin: 30px;
+   line-height: 20px;
+ 
+
 }
+#community .images {
+   display: flex;
+   background-color: var(--primary);
+   gap: 20px;
+   
+}
+
