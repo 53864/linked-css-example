@@ -148,7 +148,9 @@ color: var(--primary)
    text-align: center;
    padding: 20px;
 }
-
+.Jordanlee {
+  font-weight:normal; 
+}
 #community .designing {
    color:var(--white);
    text-align: left;
