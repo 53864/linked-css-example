@@ -96,6 +96,18 @@ color: var(--primary)
  #benefits .section-title {
    color: var(--white);
 }
+.strong1 {
+   color: var(--secondary);
+}
+.strong2 {
+   color: var(--secondary);
+}
+.strong3 {
+   color: var(--secondary);
+}
+.strong4 {
+   color: var(--secondary);
+}
 
 .benefit-list .benefit {
    display: flex;
@@ -104,6 +116,7 @@ color: var(--primary)
    border-top: 2px solid var(--white)
 
 }
+
 #work .feature-image {
    justify-content: center;
 
@@ -118,13 +131,9 @@ color: var(--primary)
 #work .feature-layout {
    display: flex;
    gap: 20px;
-   
-
 
 }
-#work .button {
-  
-}
+
 #work .eyebrow {
    color: var(--secondary);
    
