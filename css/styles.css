@@ -201,20 +201,15 @@ color: var(--primary)
  .site-footer {
    background-color: var(--dark);
    color:var(--white);
-   display: flex;
-   flex:auto;
+
 }
-.site-footer .container {
+.site-footer .footer-layout{
    display: flex;
-   gap: 20px;
+   gap: 40px;
    padding: 20px;
 }
-.explorer {
-   padding-right: 20px;
-   margin-bottom: 40px;
-}
-.connect {
-  padding: 40px;
-  margin-bottom: 20px;
+
+.site-footer .footer-layout > div{
+   width: 33%;
 }
 
